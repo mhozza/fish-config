@@ -1,4 +1,4 @@
-eval (python -m virtualfish compat_aliases)
+eval (python -m virtualfish compat_aliases auto_activation)
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
 source /usr/share/autojump/autojump.fish
